@@ -104,7 +104,7 @@ function AllowRunServiceBind.OnInvoke(args)
         Duration = math.huge,
         Callback = AllowRunServiceBind,
         Button1 = "BẬT",
-        Button2 = "OFF",
+        Button2 = "TẮT",
     })
 end
 
