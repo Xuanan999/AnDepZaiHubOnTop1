@@ -1,20 +1,6 @@
-print("Anti Cheat Bypass Active")
-notis.new("<Color=Red>Script Đã Có Bypass Anti Cheat, Còn Bị Reset Là Do Bạn\n Dùng Rất Nhiều Script Khác, Không Phải Tại AnDepZai\n Nhé Cảm Ơn Đã Sử Dụng<Color=/>"):Display()
-print("Made By: AnDepZai")
-warn("Định Deobf À Bé Yêu?")
-warn("Deobf Làm Gì:3")
-print("Anh Yêu Bé Mà Cứ Dms Xin Là Anh Cho:33")
-repeat wait(1) until game:IsLoaded()
-local LocalPlayer = game:GetService("Players").LocalPlayer
-local HttpService = game:GetService("HttpService")
-local pfp
-local user
-local tag
-local userinfo = {}
-
-pcall(function()
-    userinfo = HttpService:JSONDecode(readfile(""));
-end)
+wait(1.5)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Script Chest By Andepzai🤓<Color=/>"):Display()
+ end) 
 highChestOnly = true
 godsChalicSniper = false
 repeat task.wait(4) until game:IsLoaded()
@@ -114,13 +100,13 @@ function AllowRunServiceBind.OnInvoke(args)
     end
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
-        Title = "Chest Farm",
-        Text = "by An Dep Zai Hub ",
+        Title = "Lượm Rương",
+        Text = "by ANDEPZAI Hub ",
         Icon = "rbxassetid://16157875068",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "BẬT",
-        Button2 = "TẮT",
+        Button1 = "BẬT ✅",
+        Button2 = "TẮT❌",
     })
 end
 
@@ -139,13 +125,13 @@ end)
 
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "Chest Farm",
-    Text = "by An Dep Zai Hub",
+    Title = "Lượm Rương",
+    Text = "by ANDEPZAI Hub",
     Icon = "rbxassetid://16157875068",
     Duration = math.huge,
     Callback = AllowRunServiceBind,
-    Button1 = "BẬT",
-    Button2 = "TẮT",
+    Button1 = "BẬT ✅",
+    Button2 = "TẮT ❌",
 })
 task.spawn(function()
     while true and task.wait(.5) do
