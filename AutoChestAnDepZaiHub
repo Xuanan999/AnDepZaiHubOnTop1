@@ -1,5 +1,20 @@
 print("Anti Cheat Bypass Active")
-notis.new("<Color=Red>Script Đã Có Bypass Anti Cheat, Còn Bị Reset Là Do Bạn\n Dùng Rất Nhiều Script Khác, Không Phải Tại AnDepZai Hub\n Nhé Cảm Ơn Đã Sử Dụng<Color=/>"):Display()
+notis.new("<Color=Red>Script Đã Có Bypass Anti Cheat, Còn Bị Reset Là Do Bạn\n Dùng Rất Nhiều Script Khác, Không Phải Tại AnDepZai\n Nhé Cảm Ơn Đã Sử Dụng<Color=/>"):Display()
+print("Made By: AnDepZai")
+warn("Định Deobf À Bé Yêu?")
+warn("Deobf Làm Gì:3")
+print("Anh Yêu Bé Mà Cứ Dms Xin Là Anh Cho:33")
+repeat wait(1) until game:IsLoaded()
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local HttpService = game:GetService("HttpService")
+local pfp
+local user
+local tag
+local userinfo = {}
+
+pcall(function()
+    userinfo = HttpService:JSONDecode(readfile(""));
+end)
 highChestOnly = true
 godsChalicSniper = false
 repeat task.wait(4) until game:IsLoaded()
