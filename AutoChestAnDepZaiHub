@@ -1,4 +1,5 @@
-
+print("Anti Cheat Bypass Active")
+notis.new("<Color=Red>Script Đã Có Bypass Anti Cheat, Còn Bị Reset Là Do Bạn\n Dùng Rất Nhiều Script Khác, Không Phải Tại AnDepZai Hub\n Nhé Cảm Ơn Đã Sử Dụng<Color=/>"):Display()
 highChestOnly = true
 godsChalicSniper = false
 repeat task.wait(4) until game:IsLoaded()
